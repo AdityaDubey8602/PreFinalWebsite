@@ -1,1 +1,34 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;400&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    /* background: linear-gradient(to right, rgb(109, 109, 245), rgba(0, 128, 0, 0.553));; */
+    /* background-color:  */
+    ;
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+    overflow-x: hidden;
+    font-family: 'Kanit', sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+ :root {
+    --primary-color: #3FC060;
+    --secondary-color: #162328;
+    --linear-grad: linear-gradient(to right, #141E30, #243B55);
+    --grad-clr1: #141E30;
+    --grad-clr2: #243B55;
+    --headerclr: #6156F9;
+    --mainclr: #ed358d;
+}
+
+html,
+body {
+    height: 100%;
+}
